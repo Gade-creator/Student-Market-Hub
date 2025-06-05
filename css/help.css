@@ -1,0 +1,114 @@
+/* css/help.css */
+
+/* Reset and Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #f9f9ff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* Headings */
+h2 {
+    color: #4a6bff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #4a6bff;
+    padding-bottom: 10px;
+}
+
+h4 {
+    color: #4a6bff;
+    margin-top: 25px;
+}
+
+/* FAQ Item */
+.faq-item {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #4a6bff;
+}
+
+.faq-item p {
+    margin-top: 5px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+    background-color: #fff;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #4a6bff;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #4a6bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #3a58d6;
+}
+
+/* Link Styling */
+a {
+    color: #4a6bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.95rem;
+    }
+}
